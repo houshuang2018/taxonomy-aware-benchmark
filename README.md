@@ -14,7 +14,7 @@ The following public databases were used for the construction of benchmark datas
 
 # Dataset construction
 
-The scripts used to construct the positive and negative datasets are provided in the `XX` directory. The dataset construction pipelines are summarized below.
+The scripts used to construct the positive and negative datasets are provided in the `/scripts` directory. The dataset construction pipelines are summarized below.
 
 ## **Positive dataset construction**
 
