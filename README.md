@@ -31,16 +31,16 @@ Final negative set construction was performed by stratified sampling, with targe
 # Files description
 
 - File name: `benchmark_datasets.csv`
-  - Description: List of proteins in benchmark positive and negative sets.
+  - Description: list of proteins in benchmark positive and negative sets.
 - Directory name: `./scripts`
   - `positive_dataset_construction.ipynb`: jupyter file to construct positive benchmark dataset.
   - `negative_dataset_construction.ipynb`: jupyter file to construct negative benchmark dataset.
   - `calculate_sequence_biophysical_features.py`: python script to calculate sequence and biophysical features.
   - `predictor_evaluation.py`: python script to evaluate predictors with ten negative subsampling repeats.
 - Directory name: `./figures`
-  - Description: Figures generated for the manuscript.
+  - Description: figures generated for the manuscript.
 - Directory name: `./tables`
-  - Description: Tables generated for the manuscript.
+  - Description: tables generated for the manuscript.
 - File name: `./features/benchmark_sequence_biophysical_features.csv`
   - Description: sequence and biophysical features for proteins in benchmark dataset.  
 
