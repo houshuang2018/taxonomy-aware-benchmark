@@ -48,6 +48,14 @@ pip install localcider
 
 ## Scripts
 
+### `positive_dataset_construction.ipynb`
+
+Jupyter notebook for the positive benchmark construction workflow (see manuscript for full context).
+
+### `negative_dataset_construction.ipynb`
+
+Jupyter notebook for the negative benchmark construction workflow (see manuscript for full context).
+
 ### `calculate_sequence_biophysical_features.py`
 
 Computes IDR- and composition-related features from a UniProt list, per-ID FASTA files, and AIUPred binding output.
@@ -75,14 +83,6 @@ python3 scripts/predictor_evaluation.py \
 ```
 
 The default `--scores` filename is an example; you must supply a CSV in that schema (or change `--scores`). Intermediate negative subsample IDs are written to `neg_subsample_uids.csv` in `--work-dir` unless `--neg-csv` is set.
-
-### `positive_dataset_construction.ipynb`
-
-Jupyter notebook for the positive benchmark construction workflow (see manuscript for full context).
-
-### `negative_dataset_construction.ipynb`
-
-Jupyter notebook for the negative benchmark construction workflow (see manuscript for full context).
 
 ---
 
