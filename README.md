@@ -37,6 +37,7 @@ The construction rationale and filtering steps are summarized under [Dataset con
 pip install pandas numpy scikit-learn biopython
 # Optional but recommended for full features in calculate_sequence_biophysical_features.py:
 pip install localcider
+pip install seqkit
 ```
 
 **External tools** (only if you re-run feature computation from FASTA):
@@ -44,7 +45,7 @@ pip install localcider
 - [AIUPred](https://github.com/Dosztanyi/AIUPred) — binding/anchor output with `-b -g 0`, as expected by `calculate_sequence_biophysical_features.py`
 - Per-protein FASTA files named `{uniprot_id}.fasta` in a single directory
 
-**Notebooks:** `positive_dataset_construction.ipynb` and `negative_dataset_construction.ipynb` may require additional packages (e.g. Jupyter, scientific stack, BLASTP, CD-HIT, seqkit). 
+**Notebooks:** `positive_dataset_construction.ipynb` and `negative_dataset_construction.ipynb` require additional packages (e.g. Jupyter, scientific stack, BLASTP, CD-HIT). 
 
 ## Scripts
 
