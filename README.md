@@ -10,6 +10,7 @@ Use it to inspect the benchmark lists, reproduce feature calculations and predic
 |------|-------------|
 | `benchmark_datasets.csv` | UniProt IDs with taxon, IDP label, and positive/negative class |
 | `features/benchmark_sequence_biophysical_features.csv` | Sequence and biophysical features for benchmark proteins |
+| `data/` | Data used for benchmark construction |
 | `scripts/` | Construction notebook and Python utilities (see below) |
 | `figures/` | Main-text figures (`Figure1.png`–`Figure4.png`) |
 | `tables/` | Supplementary tables (Excel): benchmark list, predictors, performance summaries |
@@ -43,7 +44,7 @@ pip install localcider
 - [AIUPred](https://github.com/Dosztanyi/AIUPred) — binding/anchor output with `-b -g 0`, as expected by `calculate_sequence_biophysical_features.py`
 - Per-protein FASTA files named `{uniprot_id}.fasta` in a single directory
 
-**Notebooks:** `positive_dataset_construction.ipynb` and `negative_dataset_construction.ipynb` may require additional packages (e.g. Jupyter, scientific stack, BLASTP, CD-HIT). 
+**Notebooks:** `positive_dataset_construction.ipynb` and `negative_dataset_construction.ipynb` may require additional packages (e.g. Jupyter, scientific stack, BLASTP, CD-HIT, seqkit). 
 
 ## Scripts
 
